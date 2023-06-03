@@ -1,5 +1,10 @@
 package gr.aueb.cf.ch7;
 
+/**
+ * Two types of String declaration and
+ * initialization.
+ */
+
 public class StringDeclaration {
 
     public static void main(String[] args) {

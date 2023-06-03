@@ -1,5 +1,12 @@
 package gr.aueb.cf.ch7;
 
+/**
+ * Εκτυπώνει ένα String σε μορφή substrings
+ * ενός χαρακτήρα τη φορά.
+ *
+ * @author adminmacbook
+ */
+
 public class SubstringDemo {
 
     public static void main(String[] args) {
