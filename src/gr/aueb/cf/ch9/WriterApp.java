@@ -4,6 +4,10 @@ import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 
+/**
+ * Prints text with PrintWriter.
+ */
+
 public class WriterApp {
 
     public static void main(String[] args) {
