@@ -1,7 +1,10 @@
 package gr.aueb.cf.ch8;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
+
+/**
+ * java Arithmetic Exception
+ */
 
 public class ArithmeticExceptionApp {
 
