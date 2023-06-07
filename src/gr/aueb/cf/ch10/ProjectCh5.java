@@ -3,7 +3,8 @@ package gr.aueb.cf.ch10;
 import java.util.Scanner;
 
 /**
- * Prints stars.
+ * Prints stars in several patterns (horizontally,
+ * vertically, nxn, nxn ascending, nxn descending).
  */
 public class ProjectCh5 {
     static Scanner in = new Scanner(System.in);
@@ -69,6 +70,7 @@ public class ProjectCh5 {
                     break;
                 case 5:
                     printStarsHVDesc(n);
+                    break;
                 default:
                     throw new IllegalArgumentException();
             }
@@ -105,7 +107,7 @@ public class ProjectCh5 {
     }
 
     public static void printStarsHVDesc(int n) {
-        for (int i = n; i >= 1; i++) {
+        for (int i = n; i >= 1; i--) {
             printStarsH(i);
             System.out.println();
         }

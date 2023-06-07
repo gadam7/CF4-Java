@@ -3,9 +3,15 @@ package gr.aueb.cf.ch10;
 import java.util.Scanner;
 
 /**
- * Iteratively presents a multi-choice menu.
- * The users select a choice and get feedback.
- * Q/q is quit.
+ * Iteratively presents a multi-choice menu. The users select a choice and get feedback,
+ * or Q/q and quit. It handles common exceptions such as NumberFormatException or
+ * IllegalArgumentException that although are runtime exceptions are recoverable
+ * in this case. The menu choices are:
+ * 1. Insert
+ * 2. Update
+ * 3. Delete
+ * 4. Search
+ * Q/q. Quit
  */
 public class ProjectCh3 {
     static Scanner in = new Scanner(System.in);
@@ -13,10 +19,10 @@ public class ProjectCh3 {
     public static void main(String[] args) {
         boolean quit = false;
         String response = "";
+
         do {
             printMenu();
             response = getChoice();
-
             try {
                 if (response.matches("[Qq]")) {
                     quit = true;
