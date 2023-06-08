@@ -9,6 +9,12 @@ import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * Mobile Contacts Management System.
+ *
+ * @author adminmacbook
+ */
+
 public class MobileContactsApp {
     final static Scanner in = new Scanner(System.in);
     final static String[][] contacts = new String[500][3];
