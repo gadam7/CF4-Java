@@ -1,4 +1,4 @@
-package gr.aueb.cf.testbed.ch7;
+package gr.aueb.cf.Projects.ch7;
 
 /**
  * Encrypt: A program that encrypts / replaces each

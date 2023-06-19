@@ -1,4 +1,4 @@
-package gr.aueb.cf.testbed.ch5;
+package gr.aueb.cf.Projects.ch5;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package gr.aueb.cf.testbed.ch6;
+package gr.aueb.cf.Projects.ch6;
 
 /**
  * Develops a program that finds the 2nd smallest element of an array,

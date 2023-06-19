@@ -1,4 +1,4 @@
-package gr.aueb.cf.testbed.ch8;
+package gr.aueb.cf.Projects.ch8;
 
 /**
  * This is a menu example that allows the user to make a choice from the menu,

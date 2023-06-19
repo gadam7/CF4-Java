@@ -1,4 +1,4 @@
-package gr.aueb.cf.testbed;
+package gr.aueb.cf.Projects.test;
 
 public class Test2 {
     public static void main(String[] args) {

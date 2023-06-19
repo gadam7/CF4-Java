@@ -1,4 +1,4 @@
-package gr.aueb.cf.testbed.ch6;
+package gr.aueb.cf.Projects.ch6;
 
 /**
  * Develops a generic method for finding the maximum of an array getMaxPosition(int[] arr, int low, int high),

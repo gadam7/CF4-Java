@@ -1,4 +1,4 @@
-package gr.aueb.cf.testbed.ch1;
+package gr.aueb.cf.Projects.ch1;
 
 public class InitialsApp {
     public static void main(String[] args) {
